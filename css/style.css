@@ -60,6 +60,7 @@ section {
   margin-bottom: 30px;
 }
 footer {
-  text-align: center;
   margin: 100px;
+  font-size: 14px;
+  color:cadetblue;
 }
