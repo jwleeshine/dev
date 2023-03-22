@@ -1,6 +1,3 @@
-body {
-  margin: 0 400px;
-}
 header {
   height: 80px;
   display: flex;
@@ -57,7 +54,7 @@ h1{
     margin: 20px;
 }
 img{
-    vertical-align: middle;
+  display: flex;
 }
 section {
   margin-bottom: 30px;
