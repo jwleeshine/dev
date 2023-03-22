@@ -45,16 +45,17 @@ a:hover {
   color:crimson;
 }
 p{
-    padding-top:5px;
-    padding-left: 10px;
-    line-height: 30px;
+  margin-top: 20px;
+  margin-left: 10px;
+  line-height: 30px;
 }
 h1{
     font-size: 2em;
     margin: 20px;
 }
-img{
-  display: flex;
+.img_in_content {
+  vertical-align: middle;
+  margin: 20px;
 }
 section {
   margin-bottom: 30px;
