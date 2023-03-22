@@ -55,13 +55,13 @@ h1{
 }
 .img_in_content {
   vertical-align: middle;
-  margin: 20px;
+  margin: 10px;
 }
 section {
   margin-bottom: 30px;
 }
 footer {
-  margin: 100px 100px 50px 150px;
+  margin: 100px 100px 50px 100px;
   font-size: 14px;
   color:cadetblue;
 }
