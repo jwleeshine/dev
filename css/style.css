@@ -8,6 +8,7 @@ header {
 #nav_top {
   flex:95%;
   background-color: antiquewhite;
+  border-radius: 10px;
 }
 #nav_top_ul {
   display: flex;
@@ -27,6 +28,7 @@ li {
 #nav_sub>ul{
   display: flex;
   background-color:azure;
+  border-radius: 10px;
 }
 #nav_sub>ul>li{
     font-size: 18px;
@@ -50,12 +52,15 @@ p{
   line-height: 30px;
 }
 h1{
-    font-size: 2em;
-    margin: 20px;
+    font-size: 20px;
+  margin: 20px;
 }
 .img_in_content {
   vertical-align: middle;
   margin: 10px;
+}
+.img_border_radius {
+  border-radius: 10px;
 }
 section {
   margin-bottom: 30px;
