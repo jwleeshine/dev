@@ -26,6 +26,9 @@
     margin-left: 10px;
     margin-right: 10px;
   }
+  .img_in_content {
+    margin-left: 10px;
+  }
 }
 header {
   height: 80px;
