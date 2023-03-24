@@ -11,14 +11,16 @@
     padding-top: 30px;
   }
 }
-@media all and (max-width: 411px) {
+@media all and (max-width: 767px) {
   body {
     margin: 0;
   }
   #logo {
-    writing-mode: vertical-rl;
     padding-top: 0;
-    padding-right: 20px;
+  }
+  #logo_a {
+    writing-mode: vertical-rl;
+    padding-top: 8px;
   }
 }
 header {
@@ -57,7 +59,7 @@ li {
 }
 #nav_sub>ul{
   display: flex;
-  background-color:azure;
+  background-color:beige;
   border-radius: 10px;
 }
 #nav_sub>ul>li{
@@ -90,7 +92,7 @@ h1{
 
 .img_in_content {
   vertical-align: middle;
-  margin: 0 50px;
+  margin-top: 20px;
 }
 .img_border_radius {
   border-radius: 10px;
