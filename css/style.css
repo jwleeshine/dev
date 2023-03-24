@@ -8,15 +8,13 @@
     margin: 0 275px;
   }
 }
-@media all and (max-width: 1080px) {
+@media all and (max-width: 411px) {
   body {
     margin: 0;
   }
-  #logo {
-    flex: 5%;
-  }
-  #nav_top {
-    flex: 95%;
+  #logo_a {
+    writing-mode: vertical-rl;
+    padding-top: 10px;
   }
 }
 header {
@@ -28,7 +26,6 @@ header {
   text-align: center;
   background-color: aliceblue;
   border-radius: 10px;
-  padding-top: 30px;
   font-size: 20px;
 }
 #logo_a:hover {
@@ -83,9 +80,13 @@ h1{
   font-weight: bold;
   margin: 25px;
 }
+.section_img{
+  text-align: center;
+}
+
 .img_in_content {
   vertical-align: middle;
-  margin: 10px;
+  margin: 0 50px;
 }
 .img_border_radius {
   border-radius: 10px;
