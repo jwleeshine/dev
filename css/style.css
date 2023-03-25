@@ -20,7 +20,7 @@
   }
 }
 /* 모바일 기준 세로 */
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   body {
     margin: 0;
   }
