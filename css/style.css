@@ -6,6 +6,9 @@
   #logo {
     padding-top: 30px;
   }
+  #img_guido {
+    margin-left:100px;
+  }
 }
 /* 1280 x 1024 해상도 기준 */
 @media (max-width: 1280px) {
@@ -16,8 +19,8 @@
     padding-top: 30px;
   }
 }
-/* 모바일 기준 세로*/
-@media (max-width: 800px) {
+/* 모바일 기준 세로 */
+@media (max-width: 850px) {
   body {
     margin: 0;
   }
