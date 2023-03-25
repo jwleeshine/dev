@@ -24,9 +24,6 @@
   body {
     margin: 0;
   }
-  .size_down {
-    width: 80%;
-  }
 }
 /* 모바일 기준 세로 */
 @media (max-width: 500px) {
@@ -48,7 +45,7 @@
     margin-left: 10px;
   }
   .size_down {
-    width: 80%;
+    width: 60%;
   }
 }
 header {
