@@ -45,8 +45,8 @@
     margin-left: 10px;
   }
   .size_down {
-    width: 70%;
-    height: 70%;
+    width: 487.9px;
+    height: 254.1px;
   }
 }
 header {
@@ -128,6 +128,9 @@ h1{
 }
 .img_border_radius {
   border-radius: 10px;
+}
+.border_line {
+  border: 1px solid gray;
 }
 section {
   margin-bottom: 30px;
