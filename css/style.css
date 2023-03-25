@@ -6,7 +6,7 @@
   #logo {
     padding-top: 30px;
   }
-  #img_guido {
+  .img_space {
     margin-left:100px;
   }
 }
@@ -24,7 +24,7 @@
   body {
     margin: 0;
   }
-  #img_guido {
+  .img_space {
     margin-left:100px;
   }
 }
@@ -46,6 +46,9 @@
   }
   .img_in_content {
     margin-left: 10px;
+  }
+  .img_space {
+    margin-left: 50px;
   }
   .size_down {
     width:90%;
