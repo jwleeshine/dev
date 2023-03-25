@@ -16,7 +16,13 @@
     padding-top: 30px;
   }
 }
-/* 모바일 기준 */
+@media all and (max-width: 780px) {
+  body {
+    margin: 0;
+  }
+}
+
+/* 모바일 기준 세로*/
 @media all and (max-width: 500px) {
   body {
     margin: 0;
@@ -26,7 +32,7 @@
   }
   #logo_a {
     writing-mode: vertical-rl;
-    padding-top: 10px;
+    padding-top: 8px;
   }
   p {
     margin-left: 10px;
