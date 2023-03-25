@@ -24,6 +24,9 @@
   body {
     margin: 0;
   }
+  #img_guido {
+    margin-left:100px;
+  }
 }
 /* 모바일 기준 세로 */
 @media (max-width: 500px) {
@@ -140,4 +143,7 @@ footer {
   margin: 100px 100px 50px 100px;
   font-size: 14px;
   color:cadetblue;
+}
+span {
+  font-weight: bold;
 }
