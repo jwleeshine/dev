@@ -17,7 +17,7 @@
   }
 }
 /* 모바일 기준 세로*/
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   body {
     margin: 0;
   }
@@ -78,6 +78,9 @@ li {
 #nav_sub>ul>li{
   font-size: 18px;
   padding-left: 10px;
+}
+.selected_li {
+  color:cadetblue;
 }
 a{
   text-decoration-line: none;
