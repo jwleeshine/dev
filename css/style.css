@@ -1,5 +1,5 @@
 /* 1920 x 1080 해상도 기준 */
-@media all and (min-width: 1281px) {
+@media (min-width: 1281px) {
   body {
     margin: 0 595px;
   }
@@ -8,7 +8,7 @@
   }
 }
 /* 1280 x 1024 해상도 기준 */
-@media all and (max-width: 1280px) {
+@media (max-width: 1280px) {
   body {
     margin: 0 275px;
   }
@@ -17,7 +17,7 @@
   }
 }
 /* 모바일 기준 세로*/
-@media all and (max-width: 1000px) {
+@media (max-width: 1000px) {
   body {
     margin: 0;
   }
