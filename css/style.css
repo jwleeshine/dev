@@ -17,7 +17,7 @@
   }
 }
 /* 모바일 기준 */
-@media all and (max-width: 200px) {
+@media all and (max-width: 250px) {
   body {
     margin: 0;
   }
