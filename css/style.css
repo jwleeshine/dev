@@ -73,6 +73,9 @@ li {
 #nav_top_ul > li:nth-child(1) {
   margin-left: 20px;
 }
+.selected_nav_top {
+  color:darkblue;
+}
 #nav_sub>ul{
   display: flex;
   background-color:beige;
