@@ -19,8 +19,17 @@
     padding-top: 30px;
   }
 }
-/* 모바일 기준 세로 */
+/* 모바일 기준 가로 */
 @media (max-width: 900px) {
+  body {
+    margin: 0;
+  }
+  .size_down {
+    width: 80%;
+  }
+}
+/* 모바일 기준 세로 */
+@media (max-width: 500px) {
   body {
     margin: 0;
   }
@@ -37,6 +46,9 @@
   }
   .img_in_content {
     margin-left: 10px;
+  }
+  .size_down {
+    width: 80%;
   }
 }
 header {
