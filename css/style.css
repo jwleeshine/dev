@@ -39,6 +39,10 @@
   #img_right {
     margin-left:100px;
   }
+  .size_down {
+    width:90%;
+    height:90%;
+  }
 }
 /* 모바일 기준 세로 */
 @media (max-width: 500px) {
