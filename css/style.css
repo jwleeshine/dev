@@ -1,7 +1,7 @@
 /* 1920 x 1080 해상도 기준 */
 @media (min-width: 1601px) {
   body {
-    margin: 0 595px;
+    margin: 0 30%;
   }
   #logo {
     padding-top: 30px;
@@ -73,10 +73,12 @@
 }
 header {
   height: 80px;
+  width: 800px;
   display: flex;
 }
 #logo {
-  flex: 10%;
+  width: 80px;
+  display: inline;
   text-align: center;
   background-color: aliceblue;
   border-radius: 10px;
@@ -86,15 +88,17 @@ header {
   color: black;
 }
 #nav_top {
-  flex:90%;
+  width: 720px;
+  display: inline;
   background-color: antiquewhite;
   border-radius: 10px;
 }
 #nav_top_ul {
-  display: flex;
+  display: inline;
 }
 li {
   list-style-type: none;
+  float: left;
 }
 #nav_top_ul > li {
   font-size: 20px;
@@ -109,7 +113,8 @@ li {
   color:darkblue;
 }
 #nav_sub>ul{
-  display: flex;
+  height:20px;
+  width: 800px;
   background-color:beige;
   border-radius: 10px;
 }
