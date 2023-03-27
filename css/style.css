@@ -13,7 +13,7 @@
 /* 1600 x 1080 해상도 기준 */
 @media (max-width: 1600px) {
   body {
-    margin: 0 320px;
+    margin: 0 20%;
   }
   #logo {
     padding-top: 30px;
@@ -25,7 +25,7 @@
 /* 1280 x 1024 해상도 기준 */
 @media (max-width: 1280px) {
   body {
-    margin: 0 275px;
+    margin: 0 10%;
   }
   #logo {
     padding-top: 30px;
