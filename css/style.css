@@ -73,7 +73,6 @@
 }
 header {
   height: 80px;
-  width: 800px;
   display: flex;
 }
 #logo {
@@ -88,7 +87,7 @@ header {
   color: black;
 }
 #nav_top {
-  width: 720px;
+  flex: 100%;
   display: inline;
   background-color: antiquewhite;
   border-radius: 10px;
@@ -114,7 +113,7 @@ li {
 }
 #nav_sub>ul{
   height:20px;
-  width: 800px;
+  flex: 100%;
   background-color:beige;
   border-radius: 10px;
 }
