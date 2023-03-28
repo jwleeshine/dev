@@ -176,3 +176,6 @@ footer {
 span {
   font-weight: bold;
 }
+iframe {
+  margin-left: 10px;
+}
